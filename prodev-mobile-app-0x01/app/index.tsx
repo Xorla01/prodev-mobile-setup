@@ -2,15 +2,17 @@ import { Text, View, StyleSheet } from "react-native";
 
 export default function Index() {
   return (
-    <View style={styles.container}>
-      <Text>Entry Screen - Awesome</Text>
+    <>
+      <View style={styles.container}>
+        <Text>Entry Screen - Awesome</Text>
+      </View>
 
       <View>
-        <Text style={styles.largeText}>TypeScript is great if you practice more</Text>
-        <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
-        <Text style={styles.smallText}>ALX is awesome</Text>
+          <Text style={styles.largeText}>TypeScript is great if you practice more</Text>
+          <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
+          <Text style={styles.smallText}>ALX is awesome</Text>
       </View>
-    </View>
+    </>
   );
 }
 
