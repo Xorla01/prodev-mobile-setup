@@ -40,7 +40,7 @@ import { FontAwesome, Ionicons } from "@expo/vector-icons";
                         </View>
                     </View>
 
-                    <Text style={styles.forgotPassword}>Forgot password?</Text>
+                    <Text style={styles.forgotPasswordText}>Forgot password?</Text>
                 </View>
 
                 <TouchableOpacity style={styles.button}>

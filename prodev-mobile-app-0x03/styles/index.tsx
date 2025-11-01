@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
   formGroup: {
     marginTop: 44,
   },
-  forgotPassword: {
+  forgotPasswordText: {
     fontSize: 17,
     marginTop: 9,
     textAlign: 'right',
